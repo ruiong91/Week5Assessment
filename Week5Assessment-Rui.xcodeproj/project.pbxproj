@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359A0418A2C9469432679DA9 /* Pods_Week5Assessment_Rui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C0153C6E5790D081452D0D /* Pods_Week5Assessment_Rui.framework */; };
+		685608FC1E5FCC6000EFE932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685608FB1E5FCC6000EFE932 /* AppDelegate.swift */; };
+		685608FE1E5FCC6000EFE932 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685608FD1E5FCC6000EFE932 /* RootViewController.swift */; };
+		685609011E5FCC6000EFE932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685608FF1E5FCC6000EFE932 /* Main.storyboard */; };
+		685609031E5FCC6000EFE932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685609021E5FCC6000EFE932 /* Assets.xcassets */; };
+		685609061E5FCC6000EFE932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685609041E5FCC6000EFE932 /* LaunchScreen.storyboard */; };
+		6856090E1E5FD34000EFE932 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856090D1E5FD34000EFE932 /* BikeStation.swift */; };
+		685609101E5FE58900EFE932 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856090F1E5FE58900EFE932 /* MapViewController.swift */; };
+		685609121E5FE6F700EFE932 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685609111E5FE6F700EFE932 /* MapKit.framework */; };
+		685609141E5FE6FD00EFE932 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 685609131E5FE6FD00EFE932 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031D75B9B882FB21666EF133 /* Pods-Week5Assessment-Rui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5Assessment-Rui.release.xcconfig"; path = "Pods/Target Support Files/Pods-Week5Assessment-Rui/Pods-Week5Assessment-Rui.release.xcconfig"; sourceTree = "<group>"; };
+		685608F81E5FCC6000EFE932 /* Week5Assessment-Rui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week5Assessment-Rui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		685608FB1E5FCC6000EFE932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		685608FD1E5FCC6000EFE932 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		685609001E5FCC6000EFE932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		685609021E5FCC6000EFE932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685609051E5FCC6000EFE932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		685609071E5FCC6000EFE932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6856090D1E5FD34000EFE932 /* BikeStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeStation.swift; sourceTree = "<group>"; };
+		6856090F1E5FE58900EFE932 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		685609111E5FE6F700EFE932 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		685609131E5FE6FD00EFE932 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		72C0153C6E5790D081452D0D /* Pods_Week5Assessment_Rui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week5Assessment_Rui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B867673D78165C02D1CFEC1E /* Pods-Week5Assessment-Rui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5Assessment-Rui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Week5Assessment-Rui/Pods-Week5Assessment-Rui.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685608F51E5FCC6000EFE932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685609141E5FE6FD00EFE932 /* CoreLocation.framework in Frameworks */,
+				685609121E5FE6F700EFE932 /* MapKit.framework in Frameworks */,
+				359A0418A2C9469432679DA9 /* Pods_Week5Assessment_Rui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BE1B2354106B3E4C35E1FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				685609131E5FE6FD00EFE932 /* CoreLocation.framework */,
+				685609111E5FE6F700EFE932 /* MapKit.framework */,
+				72C0153C6E5790D081452D0D /* Pods_Week5Assessment_Rui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		685608EF1E5FCC6000EFE932 = {
+			isa = PBXGroup;
+			children = (
+				685608FA1E5FCC6000EFE932 /* Week5Assessment-Rui */,
+				685608F91E5FCC6000EFE932 /* Products */,
+				B893F1B661F9D7778A515EC3 /* Pods */,
+				18BE1B2354106B3E4C35E1FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		685608F91E5FCC6000EFE932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685608F81E5FCC6000EFE932 /* Week5Assessment-Rui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685608FA1E5FCC6000EFE932 /* Week5Assessment-Rui */ = {
+			isa = PBXGroup;
+			children = (
+				685608FB1E5FCC6000EFE932 /* AppDelegate.swift */,
+				685608FD1E5FCC6000EFE932 /* RootViewController.swift */,
+				6856090F1E5FE58900EFE932 /* MapViewController.swift */,
+				6856090D1E5FD34000EFE932 /* BikeStation.swift */,
+				685608FF1E5FCC6000EFE932 /* Main.storyboard */,
+				685609021E5FCC6000EFE932 /* Assets.xcassets */,
+				685609041E5FCC6000EFE932 /* LaunchScreen.storyboard */,
+				685609071E5FCC6000EFE932 /* Info.plist */,
+			);
+			path = "Week5Assessment-Rui";
+			sourceTree = "<group>";
+		};
+		B893F1B661F9D7778A515EC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B867673D78165C02D1CFEC1E /* Pods-Week5Assessment-Rui.debug.xcconfig */,
+				031D75B9B882FB21666EF133 /* Pods-Week5Assessment-Rui.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685608F71E5FCC6000EFE932 /* Week5Assessment-Rui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6856090A1E5FCC6000EFE932 /* Build configuration list for PBXNativeTarget "Week5Assessment-Rui" */;
+			buildPhases = (
+				69E4797A41BA838AA352C82A /* [CP] Check Pods Manifest.lock */,
+				685608F41E5FCC6000EFE932 /* Sources */,
+				685608F51E5FCC6000EFE932 /* Frameworks */,
+				685608F61E5FCC6000EFE932 /* Resources */,
+				2FEBB23A13D4F2ADAFF9BD02 /* [CP] Embed Pods Frameworks */,
+				D9CAC278B649A2DD244F6DFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week5Assessment-Rui";
+			productName = "Week5Assessment-Rui";
+			productReference = 685608F81E5FCC6000EFE932 /* Week5Assessment-Rui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685608F01E5FCC6000EFE932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rui Ong";
+				TargetAttributes = {
+					685608F71E5FCC6000EFE932 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MKQU59QL2E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 685608F31E5FCC6000EFE932 /* Build configuration list for PBXProject "Week5Assessment-Rui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685608EF1E5FCC6000EFE932;
+			productRefGroup = 685608F91E5FCC6000EFE932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685608F71E5FCC6000EFE932 /* Week5Assessment-Rui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685608F61E5FCC6000EFE932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685609061E5FCC6000EFE932 /* LaunchScreen.storyboard in Resources */,
+				685609031E5FCC6000EFE932 /* Assets.xcassets in Resources */,
+				685609011E5FCC6000EFE932 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FEBB23A13D4F2ADAFF9BD02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Week5Assessment-Rui/Pods-Week5Assessment-Rui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E4797A41BA838AA352C82A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CAC278B649A2DD244F6DFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Week5Assessment-Rui/Pods-Week5Assessment-Rui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685608F41E5FCC6000EFE932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685608FE1E5FCC6000EFE932 /* RootViewController.swift in Sources */,
+				685608FC1E5FCC6000EFE932 /* AppDelegate.swift in Sources */,
+				6856090E1E5FD34000EFE932 /* BikeStation.swift in Sources */,
+				685609101E5FE58900EFE932 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		685608FF1E5FCC6000EFE932 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685609001E5FCC6000EFE932 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		685609041E5FCC6000EFE932 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				685609051E5FCC6000EFE932 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		685609081E5FCC6000EFE932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685609091E5FCC6000EFE932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6856090B1E5FCC6000EFE932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B867673D78165C02D1CFEC1E /* Pods-Week5Assessment-Rui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MKQU59QL2E;
+				INFOPLIST_FILE = "Week5Assessment-Rui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Week5Assessment-Rui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6856090C1E5FCC6000EFE932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031D75B9B882FB21666EF133 /* Pods-Week5Assessment-Rui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MKQU59QL2E;
+				INFOPLIST_FILE = "Week5Assessment-Rui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Week5Assessment-Rui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685608F31E5FCC6000EFE932 /* Build configuration list for PBXProject "Week5Assessment-Rui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685609081E5FCC6000EFE932 /* Debug */,
+				685609091E5FCC6000EFE932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6856090A1E5FCC6000EFE932 /* Build configuration list for PBXNativeTarget "Week5Assessment-Rui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6856090B1E5FCC6000EFE932 /* Debug */,
+				6856090C1E5FCC6000EFE932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685608F01E5FCC6000EFE932 /* Project object */;
+}
